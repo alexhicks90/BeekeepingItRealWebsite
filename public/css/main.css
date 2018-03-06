@@ -29,6 +29,21 @@ h1,h2,h3,h4 {
     }
 }
 
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+@media only screen and (max-width: 600px) {
+    .col { 
+        display: block;
+        width: 100%;
+    }
+}
 
 .jumbotron {
     border-radius: 0;
@@ -187,6 +202,7 @@ h1,h2,h3,h4 {
 #instaColumn a:hover {
     text-decoration-color: white;
 }
+
 
 #introPic {
     height: auto;
