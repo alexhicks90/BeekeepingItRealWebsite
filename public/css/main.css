@@ -1,0 +1,221 @@
+body {
+    background: #4c2822;
+    /*  #353A41
+        #4c2822
+    */
+    overflow-x:hidden;
+    font-family: Georgia, Times, 'times New Roman', serif;
+}
+
+nav {
+    font-family: 'Patua One', cursive;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Patua One', cursive;
+	letter-spacing:1px;
+}
+
+/* EXISTING CLASSES */
+@media (max-width: 575px) {
+    .card {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+
+.jumbotron {
+    border-radius: 0;
+    background: rgb(76, 40, 34);
+    /* rgb(37, 26, 6)
+        rgb(76, 40, 34);
+    */
+}
+
+.retailRow > div[class*='col-'] {
+    display: flex;
+    flex:1 0 auto;
+} 
+
+
+
+/* CUSTOM CLASSES */
+.darken {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.darken:hover {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    transition: all 0s ease;
+}
+
+
+/*FOOTER START///////////////////*/
+
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: rgb(37, 26, 6);
+    /* #4f5866 */
+}
+
+.footer p {
+    color: #ffbb33;
+}
+
+
+.navSocial a {
+    color: white; 
+  }
+
+  .navFB:hover {
+    color: rgb(6, 97, 233);
+  }
+  .navIG:hover {
+    color: magenta; 
+  }
+
+
+.instaCard {
+    width: auto; 
+    height: auto; 
+    display: inline-block;
+}
+
+
+.insta { 
+    left: 50%;
+    bottom: 50%;
+    font-size: 0;
+  }
+  .insta:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .insta .links {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .insta .vidLink {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .insta .links i, .insta .vidLink i {
+    font-size: 35px;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+  }
+  
+  .insta span {
+    font-size: 16px;
+  }
+  
+  .insta:hover .links {
+    opacity: 1;
+  }
+  .insta:hover .vidLink {
+    opacity: 1;
+  }
+
+
+
+.slickImg {
+    height: 25vh;
+    width: 25vh;
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stroke {
+    -webkit-text-stroke: 1px orange;
+}
+
+.stroke2 {
+    -webkit-text-stroke: 2px orange;
+}
+
+
+/* IDs */
+#instaColumn {
+    overflow-y: scroll;
+    max-height: 900px;
+    max-width: 500px;
+    height: 70vh;
+    display: none;
+    border-radius: 1rem;
+    border: 4px dotted rgb(223, 37, 182);
+}
+
+@media (min-width: 992px) {
+    #instaColumn {
+        display: block;
+    }
+}
+
+#instaColumn a {
+    text-align: center;
+    color: white;
+}
+
+#instaColumn a:hover {
+    text-decoration-color: white;
+}
+
+#introPic {
+    height: auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+#homeLinksContainer {
+    border-radius: 0.5rem;
+    border: 3px solid orange;
+    background: rgb(37, 26, 6);  
+}
+
+#homeTitle {
+    text-align: center;
+}
+    @media (max-width: 575px) {
+        #homeTitle {
+            font-size: 4rem;
+        }
+    }
+    @media (max-width: 418px) {
+        #homeTitle {
+            font-size: 3rem;
+        }
+    }
+
+#logo {
+    border: 2px solid orange;
+}
+
+

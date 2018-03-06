@@ -1,0 +1,93 @@
+{
+  "locations": [
+      {
+        "id": 0,
+        "name": "Echo Valley Ranch",
+        "address": "7074 Side Rd 15, Moorefield, ON N0G 2K0",
+        "website":"http://evrgrassfed.com/",
+        "image": "/images/echoValley.jpg",
+        "lat": 43.7463674,
+        "lng": -80.70821309999997,
+        "zoom": 11,
+        "directions": "https://www.google.ca/maps/dir//Echo+Valley+Ranch,+7074+Side+Rd+15,+Moorefield,+ON+N0G+2K0/@43.5287805,-80.5318094,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bddcfe97bc357:0xbd211819d83e06a0!2m2!1d-80.709342!2d43.747537!3e0"
+      },
+      {
+        "id": 1,
+        "name": "Elevenses on Scott",
+        "address": "15 Scott Street, Unit #3 Kitchener, ON N2H 2P6",
+        "website":"http://www.elevensesonscott.com/home.html",
+        "image": "/images/elevenses.jpg",
+        "lat": 43.4488989,
+        "lng": -80.48561760000001,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//Elevenses+on+Scott,+15+Scott+St+%233,+Kitchener,+ON+N2H+2P6/@43.3862587,-80.4201912,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bf4edb21aaab1:0x2e4d65652adf5d9e!2m2!1d-80.4856988!2d43.4488896!3e0"
+      },
+      {
+        "id": 2,
+        "name": "Forsythe Family Farms",
+        "address": "1025 Cragg Rd, Uxbridge, ON L9P 1R3",
+        "website":"http://forsythefamilyfarms.com/",
+        "image": "/images/forsytheFarms.jpg",
+        "lat": 44.1495963,
+        "lng": -79.02730170000001,
+        "zoom": 11,
+        "directions": "https://www.google.ca/maps/dir//Forsythe+Family+Farms+2009+Inc,+1025+Cragg+Rd,+Uxbridge,+ON+L9P+1R3/@43.7395704,-79.7027463,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89d52a6887507375:0x4165ff74c6a3cabb!2m2!1d-79.0273017!2d44.1495963!3e0"
+      },
+      {
+        "id": 3,
+        "name": "Beekeeping It Real",
+        "address": "287 Northumberland St, Ayr, ON N0B 1E0",
+        "website":"/",
+        "image": "/images/logo.jpg",
+        "lat": 43.2917309,
+        "lng": -80.45773609999998,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//287+Northumberland+St,+Ayr,+ON+N0B+1E0/@43.3091869,-80.4188319,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c0ccc87c27ea1:0x1d9883dcc16787dc!2m2!1d-80.4577361!2d43.2917309!3e0"
+      },
+      {
+        "id": 4,
+        "name": "One Black Sheep",
+        "address": "110 Stanley St, Ayr, ON N0B 1E0",
+        "website":"https://www.facebook.com/oneblacksheepayr/",
+        "image": "/images/blackSheep.jpg",
+        "lat": 43.2858062,
+        "lng": -80.44936229999996,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//One+Black+Sheep,+110+Stanley+St,+Ayr,+ON+N0B+1E0/@43.2605956,-80.4039099,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c732dfd7868d1:0xd55f84d458432811!2m2!1d-80.4493764!2d43.2857477!3e0"
+      },
+      {
+        "id": 5,
+        "name": "Willibald Farm Distillery",
+        "address": "1271 Reidsville Rd, Ayr, ON N0B 1E0",
+        "website":"http://drinkwillibald.com/",
+        "image": "/images/willibald.jpg",
+        "lat": 43.2862782,
+        "lng": -80.42534289999998,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//Willibald+Farm+Distillery,+1271+Reidsville+Rd,+Ayr,+ON+N0B+1E0/@43.2605956,-80.3924153,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c7310e3f92929:0xa2dcbc201866b5d5!2m2!1d-80.4253261!2d43.2862843!3e0"
+      },
+      {
+        "id": 6,
+        "name": "The Sustainable Market  ",
+        "address": "275 Erb Street E, Waterloo, ON, N2J 1N6",
+        "website":"https://sustainablemarket.ca/",
+        "image": "/images/sustainableMarket.jpg",
+        "lat": 43.470867,
+        "lng": -80.498961,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//The+Sustainable+Market+-+%22Just+Clean+Food%22,+275+Erb+St+E,+Waterloo,+ON+N2J+1N6/@43.3867595,-80.4289574,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bf4800cb52603:0xdae657b15650630e!2m2!1d-80.4989611!2d43.4708665!3e0"
+      },
+      {
+        "id": 7,
+        "name": "Hollow Willow Health Store",
+        "address": "15 Grand River St N, Paris, ON N3L 2L9",
+        "website":"http://www.thehollowwillowhealthstore.ca/",
+        "image": "/images/hollowWillow.jpg",
+        "lat": 43.1925913,
+        "lng": -80.38332869999999,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//The+Hollow+Willow+Health+Store,+15+Grand+River+St+N,+Paris,+ON+N3L+2L9/@43.2534338,-80.3545067,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c6c349016ab97:0x9440b1974aaf13d6!2m2!1d-80.3833287!2d43.1925913!3e0"
+      }
+    
+  ]
+}
