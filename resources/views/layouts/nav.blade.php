@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navCollapse">
             <div class="navbar-nav">
                 <a class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
-                <a class="nav-item nav-link {{ Request::is('/about') ? 'active' : '' }}" href="/about">About</a>
+                <a class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">About</a>
                 <a class="nav-item nav-link {{ Request::is('locations') ? 'active' : '' }}" href="/locations">Retail Locations</a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ Request::is('products*') ? 'active' : '' }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

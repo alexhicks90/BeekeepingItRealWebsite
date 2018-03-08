@@ -4,42 +4,34 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <style type="text/css">
-    body{
+body{
 	width:100%;
 	height:100%;
-	font-family: 'Roboto Condensed', sans-serif;
-	
 }
 
-
 h1,h2,h3 {
-	margin:0 0 35px 0;
-	font-family: 'Patua One', cursive;
+    margin:0 0 0.6em 0;
 	text-transform: uppercase;
 	letter-spacing:1px;
 }
 
 p{
 	margin:0 0 25px;
-	font-size:18px;
 	line-height:1.6em;
 }
-a{
-	color:#26a5d3;
-}
+
 a:hover,a:focus{
 	text-decoration:none;
-	color:#26a5d3;
+	color:white;
 }
 
-#contact{
-	
+#contact{	
 	color:#f4f4f4;
-	padding-bottom:80px;
+	padding-bottom:3em;
 }
 
 textarea.form-control{
-    height:100px;
+    height:7em;
 }
 </style>
 @endsection
@@ -50,7 +42,7 @@ textarea.form-control{
     <div class="contact-section">
         <div class="container">
             <h2 class="stroke">Contact Us</h2>
-            <p class="col-md-8 offset-md-2 mb-1">Please feel free to contact us via this form if you have any questions about our products or how to acquire them.</p>
+            <p class="col-md-8 offset-md-2 mb-3 text-left">Please feel free to contact us via this form if you have any questions about our products or how to acquire them.</p>
             <div class="mb-3">
                 <span class="text-warning">* </span><small class="mb-3">Denotes a required field</small>
             </div>
@@ -82,7 +74,7 @@ textarea.form-control{
                         </div>
                         <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
-                    <p class="mt-4">Or click link below to use your email client</p>
+                    <p class="mt-4">Or click the link below to use your email client</p>
                     <a href="mailto:info@beekeepingitreal.ca?Subject=beekeepingitreal.ca%20Website%20Question" target="_top">Send Email</a>
                 </div>
             </div>

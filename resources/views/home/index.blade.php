@@ -42,7 +42,7 @@
 
 @section('content')
 
-<div class="jumbotron text-warning" style="border-bottom: 4px solid #ffbb33;">
+<div class="jumbotron text-warning py-4" style="border-bottom: 4px solid #ffbb33;">
     <div class="container">
       <div class="row">
         <h1 id="homeTitle" class="col-11 display-2 text-white stroke2">Beekeeping It Real</h1>
