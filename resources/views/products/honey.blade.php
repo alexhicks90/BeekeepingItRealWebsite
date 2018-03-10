@@ -13,9 +13,14 @@
 
           <div class="blog-post">
            
-
-            <p>When choosing honey there are many considerations before you make your choice!  Honey can be sold liquid, solid (crystalized), raw, processed, creamed, in comb, blended, and can range from light to dark in colour with a wide range of flavours.  As always there are pros and cons to every choice.</p>
-            
+            <div class="row">
+              <div class="col-4">
+                <p>When choosing honey there are many considerations before you make your choice!  Honey can be sold liquid, solid (crystalized), raw, processed, creamed, in comb, blended, and can range from light to dark in colour with a wide range of flavours.  As always there are pros and cons to every choice.</p>
+              </div>
+              <div class="col-8">
+                <img src="/images/honey.jpg" alt="honey" class="img-responsive" width="480px">
+              </div>
+            </div>
             <h4 class="pb-1 mb-2 font-italic mt-4 text-warning">
             Why Choose Raw Honey?
              </h4>

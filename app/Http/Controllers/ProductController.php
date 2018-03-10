@@ -11,8 +11,8 @@ class ProductController extends Controller
         return view('/products/index');
     }
 
-    public function info() {
+    public function honey() {
 
-        return view('/products/info');
+        return view('/products/honey');
     }
 }

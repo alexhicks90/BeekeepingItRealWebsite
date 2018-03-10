@@ -26,14 +26,16 @@
                 <a class="nav-item nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">About</a>
                 <a class="nav-item nav-link {{ Request::is('locations') ? 'active' : '' }}" href="/locations">Retail Locations</a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle {{ Request::is('products*') ? 'active' : '' }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Product Info
+                    <a class="navCursor nav-link dropdown-toggle {{ Request::is('products*') ? 'active' : '' }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
                     </a>
                     <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/products">Products</a>
+                        <a class="dropdown-item" href="/products">Overview</a>
                         <div class="dropdown-divider"></div>
-                        <h5 class="dropdown-header">Product Info</h5>
-                        <a class="dropdown-item" href="/products/info">Raw Honey</a>
+                        <h5 class="dropdown-header">Products:</h5>
+                        <a class="dropdown-item" href="/products/raw-honey">Raw Honey</a>
+                        <a class="dropdown-item" href="/products/beeswax">Beeswax</a>
+                        <a class="dropdown-item" href="/products/pollen">Pollen</a>
                     </div>
                 </li>
                 <a class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contact Us</a>

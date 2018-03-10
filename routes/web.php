@@ -16,7 +16,7 @@ Route::get('/locations', 'HomeController@locations');
 Route::get('/about', 'HomeController@about');
 
 Route::get('/products', 'ProductController@index');
-Route::get('/products/info', 'ProductController@info');
+Route::get('/products/raw-honey', 'ProductController@honey');
 
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
