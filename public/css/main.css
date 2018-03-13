@@ -7,6 +7,7 @@ body {
     font-family: Georgia, Times, 'times New Roman', serif;
 }
 
+/* NAV START */
 nav {
     font-family: 'Patua One', cursive;
     /* font-family: 'Roboto Condensed', sans-serif; */
@@ -16,6 +17,12 @@ nav {
     cursor: pointer;
 }
 
+@media (max-width: 767px) {
+    .nav-item, .dropdown-menu {
+        text-align: center;
+    }
+}
+/* NAV END */
 h1 {
     text-transform: uppercase;
 }
@@ -93,7 +100,13 @@ h1,h2,h3,h4 {
     color: #ffbb33;
 }
 
+@media (max-width: 399px) {
+    .footer {
+        font-size: 0.85rem;
+    }
+}
 
+/* FOOTER END */
 .navSocial a {
     color: white; 
   }
@@ -284,4 +297,18 @@ h1,h2,h3,h4 {
         background: #ccc;
         z-index: 1;
     }
+}
+
+/* Raw Honey Page Specific */
+#honeyPic {
+    max-width: 100%;
+    height: auto;
+}
+
+#natureOf:before {
+    display: block; 
+    content: " "; 
+    height: 70px;     
+    margin-top: -70px;
+    visibility: hidden;
 }

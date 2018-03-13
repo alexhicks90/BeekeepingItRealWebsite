@@ -7,11 +7,11 @@
     <a class="col-5 col-md-2 col-lg-1 col-sm-3" href="https://www.instagram.com/beekeeping_it_real/"><img src="/images/instagram-icon.svg" alt="Instagram Link"></a>
  -->  
     
-    <div class="col-sm-10 hidden-xs d-flex justify-content-around">   
+    <div class="col-sm-10 d-flex justify-content-around">   
       <div class="col">
-        <i class="fa fa-phone" aria-hidden="true"></i><p> (123) 456-7890</p>
+        <i class="fa fa-archive" aria-hidden="true"></i><p> Beekeeping It Real</p>
       </div>
-      <div class="col">
+      <div class="col px-0 px-sm-3">
       <i class="fa fa-envelope" aria-hidden="true"></i><p> info@<wbr>beekeepingitreal<wbr>.ca</p>
       </div>
       <div class="col">

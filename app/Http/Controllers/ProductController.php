@@ -15,4 +15,14 @@ class ProductController extends Controller
 
         return view('/products/honey');
     }
+
+    public function beeswax() {
+
+        return view('/products/beeswax');
+    }
+
+    public function pollen() {
+
+        return view('/products/pollen');
+    }
 }

@@ -17,6 +17,8 @@ Route::get('/about', 'HomeController@about');
 
 Route::get('/products', 'ProductController@index');
 Route::get('/products/raw-honey', 'ProductController@honey');
+Route::get('/products/beeswax', 'ProductController@beeswax');
+Route::get('/products/pollen', 'ProductController@pollen');
 
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');

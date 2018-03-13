@@ -60,7 +60,7 @@
           <p><a class="btn btn-warning btn-lg text-dark" href="/about" role="button">David's Story &raquo;</a></p>
         </div>
         <div class="col-sm-4 text-center">
-          <p><a class="btn btn-warning btn-lg text-dark" href="/products/info" role="button">Learn more about raw honey &raquo;</a></p>
+          <p><a class="btn btn-warning btn-lg text-dark" href="/products/raw-honey#natureOf" role="button">Learn more about raw honey &raquo;</a></p>
         </div>
       </div>
     </div>
