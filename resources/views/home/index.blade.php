@@ -42,7 +42,7 @@
 
 @section('content')
 
-<div class="jumbotron text-warning py-4" style="border-bottom: 4px solid #ffbb33;">
+<div id="introDiv" class="jumbotron text-warning py-4" style="border-bottom: 4px solid #ffbb33;">
     <div class="container">
       <div class="row">
         <h1 id="homeTitle" class="col-11 display-2 text-white stroke2">Beekeeping It Real</h1>
@@ -50,7 +50,7 @@
           <img id="introPic" class="img img-fluid mt-2 pb-3" src="images/DSC_0049.JPG" alt="David Stotesbury">
         </div>
         <div class="col-md-6 col-lg-4 d-flex align-items-center h100">
-          <p id="introBlurb" class="lead">Since 2011, Beekeeping It Real has been providing Ayr, Kitchener/Waterloo, Paris, Elmira 
+          <p id="introBlurb" class="lead">Since 2011, Beekeeping It Real has been providing Ayr, Kitchener/<wbr>Waterloo, Paris, Elmira 
               and surrounding areas with quality raw honey and various other hive products.  Founded by David 
               Stotesbury, the goal in mind was to produce products as Mother Nature intended!</p>
           <!-- <p><a class="btn btn-warning btn-lg text-dark" href="/about" role="button">David's Story &raquo;</a></p>
@@ -68,8 +68,8 @@
 
 <div id="homeContainer" class="mx-5">
   <div class="row">
-    <div class="col-12 col-lg-8">
-      <div id="homeLinksContainer" class="jumbotron row text-light mr-1">
+    <div id="homeLinksContainer" class="col-12 col-lg-8">
+      <div id="homeLinksJumbo" class="jumbotron row text-light mr-1">
           <div class="col-12">
             <h2 class="display-4 text-center">Member of the Ontario Beekeepers Association</h2>
             <hr class="my-4 bg-light">
@@ -79,28 +79,32 @@
           <div class="col-12 slickCarousel text-center">
             <div>
               <h6>Ontario Beekeepers Association</h6>
+              <small>Innovation: Bringing back the bees</small>
               <a href="http://www.ontariobee.com/sales-and-services/where-to-buy-honey-products/davestotes" target="_blank"><img class="slickImg img-fluid" src="images/oba.png" alt="OBA Logo"></a>
             </div>
             <div>
-              <h6>University of Guelph Video Series</h6>
+              <h6>University of Guelph</h6>
+              <small>How-To Video Series</small>
               <a href="http://www.uoguelph.ca/honeybee/videos.shtml" target="_blank"><img class="slickImg img-fluid" src="images/guelphLogo.jpg" alt="UoG Logo"></a>
             </div>
             <div>
               <h6>Toronto Star Article</h6>
+              <small>Innovation: Bringing back the bees</small>
               <a href="https://www.thestar.com/life/homes/2016/05/09/innovation-bringing-back-the-bees.html" target="_blank"><img class="slickImg img-fluid" src="images/theStar.png" alt="Toronto Star Logo"></a>
             </div>
             <div>
-              <h6>Betta Bees Research Limited, NZ</h6>
-              <p>Newsletter Issue: 12/2012</p>
+              <h6>Betta Bees Newsletter - 12/2012</h6>
+              <small>Newsletter Issue: 12/2012</small>
               <a href="http://www.bettabees.co.nz/file/Betta%20Bees/News%20Letters/2012_12.pdf" target="_blank"><img class="slickImg img-fluid" src="images/bettaLogo.png" alt="University of Guelph Logo"></a>
             </div>
             <div>
-              <h6>Speaker at Eastern Apiculture Society, 2015</h6>
+              <h6>Eastern Apiculture Society</h6>
+              <small>Speaker, 2015</small>
               <a href="http://www.easternapiculture.org/conferences/conference-archive/eas-2015/2015-speakers.html " target="_blank"><img class="slickImg img-fluid" src="images/EAS_logo.png" alt="University of Guelph Logo"></a>
             </div>
             <div>
               <h6>Betta Bees Research Limited, NZ</h6>
-              <p>Newsletter Issue: 03/2013</p>
+              <small>Newsletter Issue: 03/2013</small>
               <a href="http://www.bettabees.co.nz/file/Betta%20Bees/News%20Letters/2013_03(1).pdf" target="_blank"><img class="slickImg img-fluid" src="images/bettaLogo.png" alt="University of Guelph Logo"></a>
             </div>
         </div>

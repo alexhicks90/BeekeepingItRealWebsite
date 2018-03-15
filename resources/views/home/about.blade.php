@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="col-12 col-sm-6 d-flex align-items-center h100 my-sm-5">
-            <img src="images/hives.jpg" class="img-responsive aboutPic mx-auto" alt="Honey Bee Research Centre">
+            <img src="images/paulKelly.jpg" class="img-responsive aboutPic mx-auto" alt="Honey Bee Research Centre">
         </div>
         <div class="col-12 col-sm-6 d-flex align-items-center h100 mt-1 mb-3 my-sm-5">
             <blockquote class="blockquote mx-auto px-3">
