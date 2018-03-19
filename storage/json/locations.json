@@ -2,14 +2,14 @@
   "locations": [
       {
         "id": 0,
-        "name": "Echo Valley Ranch",
-        "address": "7074 Side Rd 15, Moorefield, ON N0G 2K0",
-        "website":"http://evrgrassfed.com/",
-        "image": "/images/echoValley.jpg",
-        "lat": 43.7463674,
-        "lng": -80.70821309999997,
-        "zoom": 11,
-        "directions": "https://www.google.ca/maps/dir//Echo+Valley+Ranch,+7074+Side+Rd+15,+Moorefield,+ON+N0G+2K0/@43.5287805,-80.5318094,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bddcfe97bc357:0xbd211819d83e06a0!2m2!1d-80.709342!2d43.747537!3e0"
+        "name": "Beekeeping It Real",
+        "address": "287 Northumberland St, Ayr, ON N0B 1E0",
+        "website":"/",
+        "image": "/images/logo.jpg",
+        "lat": 43.2917309,
+        "lng": -80.45773609999998,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//287+Northumberland+St,+Ayr,+ON+N0B+1E0/@43.3091869,-80.4188319,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c0ccc87c27ea1:0x1d9883dcc16787dc!2m2!1d-80.4577361!2d43.2917309!3e0"
       },
       {
         "id": 1,
@@ -35,14 +35,14 @@
       },
       {
         "id": 3,
-        "name": "Beekeeping It Real",
-        "address": "287 Northumberland St, Ayr, ON N0B 1E0",
-        "website":"/",
-        "image": "/images/logo.jpg",
-        "lat": 43.2917309,
-        "lng": -80.45773609999998,
-        "zoom": 14,
-        "directions": "https://www.google.ca/maps/dir//287+Northumberland+St,+Ayr,+ON+N0B+1E0/@43.3091869,-80.4188319,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c0ccc87c27ea1:0x1d9883dcc16787dc!2m2!1d-80.4577361!2d43.2917309!3e0"
+        "name": "Echo Valley Ranch",
+        "address": "7074 Side Rd 15, Moorefield, ON N0G 2K0",
+        "website":"http://evrgrassfed.com/",
+        "image": "/images/echoValley.jpg",
+        "lat": 43.7463674,
+        "lng": -80.70821309999997,
+        "zoom": 11,
+        "directions": "https://www.google.ca/maps/dir//Echo+Valley+Ranch,+7074+Side+Rd+15,+Moorefield,+ON+N0G+2K0/@43.5287805,-80.5318094,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bddcfe97bc357:0xbd211819d83e06a0!2m2!1d-80.709342!2d43.747537!3e0"
       },
       {
         "id": 4,
@@ -68,7 +68,7 @@
       },
       {
         "id": 6,
-        "name": "The Sustainable Market  ",
+        "name": "The Sustainable Market",
         "address": "275 Erb Street E, Waterloo, ON, N2J 1N6",
         "website":"https://sustainablemarket.ca/",
         "image": "/images/sustainableMarket.jpg",
@@ -87,7 +87,17 @@
         "lng": -80.38332869999999,
         "zoom": 14,
         "directions": "https://www.google.ca/maps/dir//The+Hollow+Willow+Health+Store,+15+Grand+River+St+N,+Paris,+ON+N3L+2L9/@43.2534338,-80.3545067,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c6c349016ab97:0x9440b1974aaf13d6!2m2!1d-80.3833287!2d43.1925913!3e0"
-      }
-    
+      },
+      {
+        "id": 8,
+        "name": "Beekeeping It Real",
+        "address": "137 Woolwich Street, Waterloo ON N2K 1S5",
+        "website":"/",
+        "image": "/images/logo.jpg",
+        "lat": 43.487442,
+        "lng": -80.48298599999998,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//137+Woolwich+St,+Waterloo,+ON+N2K+1S5/@43.3867595,-80.4283623,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882bf36c80a158e1:0x1a7a4e31c95e1b5b!2m2!1d-80.482986!2d43.487442!3e0"
+      } 
   ]
 }

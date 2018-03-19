@@ -35,16 +35,17 @@
 
         @foreach ($json['locations'] as $location)
 
-            
-            
+            @if ($location['id'] != 8)
+                
             <div class="col-sm-6 col-md-4 mb-5">
                 <div class="card border-warning mx-auto">
                 <a href="{{ $location['website'] }}" target="_blank"><img class="card-img-top img-fluid" style="max-height:300px;" src="{{ $location['image'] }}" alt="Card image cap"></a>
                     <div class="card-body">
                         <h5 class="card-title">{{ $location['name'] }}</h5>
                         <p class="card-text">{{ $location['address'] }}</p>
-                        @if ($location['id'] == 3)
-                        <p class="card-text font-italic">*Available by appointment only*</p>
+                        @if ($location['id'] == 0)
+                        <p class="card-text">137 Woolwich Street, Waterloo ON N2K 1S5</p>
+                        <small class="card-text font-italic">*Available by appointment only*</small>
                         @endif
                     </div>
                     <div class="card-footer bg-warning d-flex justify-content-around">
@@ -57,6 +58,7 @@
                     </div>
                 </div>
             </div>
+            @endif
         @endforeach
         <!-- <div class="col-8"></div>
         <h3 class="mx-auto mt-0 font-italic text-white">And of course...</h3>

@@ -146,6 +146,19 @@ function myMap() {
         console.log("Marker 7: " + markers[7]);
     });
 
+    markers[8].addListener('click', function() {
+        map.setZoom(locations[8].zoom);
+        map.setCenter(markers[8].getPosition());
+
+        var infowindow = new google.maps.InfoWindow();
+
+        infowindow.setContent(
+            "<p>" + json.locations[8].name + "<br />" + json.locations[8].address + "<br/> <a target='_blank' href='" + json.locations[8].directions + "'>Get Directions</a></p>"
+        );
+        infowindow.open(map,markers[8]);
+        console.log("Marker 8: " + markers[8]);
+    });
+
 }
 
 
