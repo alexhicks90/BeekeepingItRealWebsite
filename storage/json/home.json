@@ -1,0 +1,48 @@
+{
+    "introBlurb": "Since 2011, Beekeeping It Real has been providing Ayr, Kitchener/<wbr>Waterloo, Paris, Elmira and surrounding areas with quality raw honey and various other hive products.  Founded by David Stotesbury, the goal in mind was to produce products as Mother Nature intended!",
+
+    "carousel": [
+        {
+            "title": "Ontario Beekeepers Association",
+            "subtitle": "Beekeeping It Real",
+            "url": "https://www.ontariobee.com/sales-and-services/where-to-buy-honey-products#action=Listing&value=1361&searchID=8598&cid=1381&id=601",
+            "image": "oba.png",
+            "imageAlt": "OBA Logo"
+        },
+        {
+            "title": "University of Guelph",
+            "subtitle": "How-To Video Series",
+            "url": "http://www.uoguelph.ca/honeybee/videos.shtml",
+            "image": "guelphLogo.jpg",
+            "imageAlt": "UoG Logo"
+        },
+        {
+            "title": "Toronto Star Article",
+            "subtitle": "Innovation: Bringing back the bees",
+            "url": "https://www.thestar.com/life/homes/2016/05/09/innovation-bringing-back-the-bees.html",
+            "image": "theStar.png",
+            "imageAlt": "Toronto Star Logo"
+        },
+        {
+            "title": "Betta Bees Research Limited, NZ",
+            "subtitle": "Newsletter Issue: 12/2012",
+            "url": "http://www.bettabees.co.nz/file/Betta%20Bees/News%20Letters/2012_12.pdf",
+            "image": "bettaLogo.png",
+            "imageAlt": "Betta Bees Logo"
+        },
+        {
+            "title": "Eastern Apiculture Society",
+            "subtitle": "Speaker, 2015",
+            "url": "http://www.easternapiculture.org/conferences/conference-archive/eas-2015/2015-speakers.html",
+            "image": "EAS_logo.png",
+            "imageAlt": "Eastern Apiculture Society Logo"
+        },
+        {
+            "title": "Betta Bees Research Limited, NZ",
+            "subtitle": "Newsletter Issue: 03/2013",
+            "url": "http://www.bettabees.co.nz/file/Betta%20Bees/News%20Letters/2013_03(1).pdf",
+            "image": "bettaLogo.png",
+            "imageAlt": "Betta Bees Logo"
+        }
+    ]
+}

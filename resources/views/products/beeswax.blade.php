@@ -5,6 +5,8 @@
 @section('content')
 <div class=" container">
     <h4>Beeswax:</h4>
-    <p>Something something, our products are great and natural and stuff!</p>
+    <p>{{ $json['p1'] }}</p>
+    <p>{{ $json['p2'] }}</p>
+    <p>{{ $json['p3'] }}</p>
 </div>
 @endsection

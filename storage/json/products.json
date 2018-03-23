@@ -1,0 +1,96 @@
+{
+    "products": [
+
+        {
+            "name": "Raw Honey",
+            "shortDesc": "Our raw honey is sold in 500g, 1kg, and 3kg quantities.  Larger quantities are also available upon request.",
+            "longDesc": "",
+            "stroke" : "",
+            "url": "/products/raw-honey",
+            "textColor": "",
+            "btnText": "Learn More",
+            "btnClass": "btn-warning",
+            "carouselImage": "honey.jpg",
+            "alt": "Raw-Honey Slide",
+            "img": "honey.jpg"
+        },
+        {
+            "name": "Beeswax",
+            "shortDesc": "Our beeswax is melted, strained, cleaned, and ready for use.",
+            "longDesc": "",
+            "stroke" : "",
+            "url": "/products/beeswax",
+            "textColor": "",
+            "btnText": "Learn More",
+            "btnClass": "btn-warning",
+            "carouselImage": "beeswax.jpg",
+            "alt": "Beeswax Slide",
+            "img": "beeswax.jpg"
+        },
+        {
+            "name": "Pollen",
+            "shortDesc": "Bee pollen harvest from our hives is fresh/frozen and sold by the pound.",
+            "longDesc": "",
+            "stroke" : "strokeWhite",
+            "url": "/products/pollen",
+            "textColor": "text-dark",
+            "btnText": "Learn More",
+            "btnClass": "btn-warning",
+            "carouselImage": "pollen.jpg",
+            "alt": "Pollen Slide",
+            "img": "pollen.jpg"
+        },
+        {
+            "name": "Propolis",
+            "shortDesc": "Bee pollen harvested from our hives comes fresh/frozen and is sold by the pound.",
+            "longDesc": "",
+            "stroke" : "stroke",
+            "url": "#myCarousel",
+            "textColor": "text-dark",
+            "btnText": "Coming Soon!",
+            "btnClass": "comingSoonBtn text-dark",
+            "carouselImage": "propolis.jpg",
+            "alt": "Propolis Slide",
+            "img": "propolis.jpg"
+        },
+        {
+            "name": "Nucs/Colonies",
+            "shortDesc": "Bee pollen harvested from our hives comes fresh/frozen and is sold by the pound.",
+            "longDesc": "",
+            "stroke" : "strokeBlack",
+            "url": "#myCarousel",
+            "textColor": "text-warning",
+            "btnText": "Coming Soon!",
+            "btnClass": "comingSoonBtn text-dark",
+            "carouselImage": "nucs.jpg",
+            "alt": "Nucs Slide",
+            "img": "nucs.jpg"
+        },
+        {
+            "name": "Beeswax",
+            "shortDesc": "Our beeswax is melted, strained, cleaned, and ready for use.",
+            "longDesc": "",
+            "stroke" : "",
+            "url": "/products/beeswax",
+            "textColor": "",
+            "btnText": "Learn More",
+            "btnClass": "btn-warning",
+            "carouselImage": "beeswax.jpg",
+            "alt": "Beeswax Slide",
+            "img": "beeswax.jpg"
+        },
+        {
+            "name": "Nucs/Colonies",
+            "shortDesc": "Bee pollen harvested from our hives comes fresh/frozen and is sold by the pound.",
+            "longDesc": "",
+            "stroke" : "strokeBlack",
+            "url": "#myCarousel",
+            "textColor": "text-warning",
+            "btnText": "Coming Soon!",
+            "btnClass": "comingSoonBtn text-dark",
+            "carouselImage": "nucs.jpg",
+            "alt": "Nucs Slide",
+            "img": "nucs.jpg"
+        }
+    ]
+}

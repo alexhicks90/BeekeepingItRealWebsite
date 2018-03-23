@@ -30,9 +30,9 @@
                     Products
                     </a>
                     <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/products">Overview</a>
+                        <a class="dropdown-item" href="/products">Products</a>
                         <div class="dropdown-divider"></div>
-                        <h5 class="dropdown-header">Products:</h5>
+                        <h5 class="dropdown-header">Product Info:</h5>
                         <a class="dropdown-item" href="/products/raw-honey">Raw Honey</a>
                         <a class="dropdown-item" href="/products/beeswax">Beeswax</a>
                         <a class="dropdown-item" href="/products/pollen">Pollen</a>

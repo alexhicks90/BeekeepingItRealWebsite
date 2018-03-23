@@ -3,37 +3,7 @@
 @section('assets')
 <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<style type="text/css">
-body{
-	width:100%;
-	height:100%;
-}
-
-h1,h2,h3 {
-    margin:0 0 0.6em 0;
-	text-transform: uppercase;
-	letter-spacing:1px;
-}
-
-p{
-	margin:0 0 25px;
-	line-height:1.6em;
-}
-
-a:hover,a:focus{
-	text-decoration:none;
-	color:white;
-}
-
-#contact{	
-	color:#f4f4f4;
-	padding-bottom:3em;
-}
-
-textarea.form-control{
-    height:7em;
-}
-</style>
+<link href="/css/contact.css" rel="stylesheet" type="text/css" >
 @endsection
 
 @section('content')
@@ -75,7 +45,7 @@ textarea.form-control{
                         <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
                     <p class="mt-4">Or click the link below to use your email client</p>
-                    <a href="mailto:info@beekeepingitreal.ca?Subject=beekeepingitreal.ca%20Website%20Question" target="_top">Send Email</a>
+                    <a class="text-warning" href="mailto:info@beekeepingitreal.ca?Subject=beekeepingitreal.ca%20Website%20Question" target="_top">Send Email</a>
                 </div>
             </div>
         </div>
