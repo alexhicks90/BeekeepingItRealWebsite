@@ -45,14 +45,14 @@
 
     {{--<h1 class="text-center display-4 stroke2" style="text-decoration: underline;">Products</h1>--}}
       <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div class="row matchedHeightRow">
         @foreach ($json['products'] as $product)
-          <div class="col-lg-4">
-            <div class="productContainer">
-              <div class="product py-2">
+          <div class="mb-5 col-lg-4 col-md-6">
+            <div class="productContainer p-1">
+              <div class="product text-center">
                 <img class="rounded-circle" src="/images/{{ $product['img'] }}" alt="{{ $product['alt'] }}" width="140" height="140">
                 <h2>{{ $product['name'] }}</h2>
-                <p>{{ $product['shortDesc'] }}</p>
+                <p class="px-4 px-md-3">{{ $product['shortDesc'] }}</p>
                 <p><a class="btn {{ $product['btnClass'] }}" href="{{ $product['url'] }}" role="button">@if($product['btnText'] == "Learn More") Product Info &raquo;@else Coming Soon! @endif</a></p>
               </div>
             </div>

@@ -1,5 +1,21 @@
 {
-    "p1": "Our beeswax is melted, strained and cleaned, and ready for use.  There is nearly an endless list of uses for beeswax with candles, furniture finishes/polishes, cosmetics, shoe polishes, and soap making being some of the more popular outlets.  Beeswax is a naturally antibacterial, antifungal material that when burned actually clean the air around them (emitting negative ions).",
-    "p2": "Beeswax also never ‘goes bad’.  With time, pure beeswax will develop ‘bloom’ on the outside surfaces of the block/candle etc. which is a natural processed and valued by many beeswax enthusiasts.  Bloom will not affect burning or other properties, but if it does not tickle your fancy, wiping the areas with bloom with a soft bristled brush or soft cloth should return the beeswax to its pristine state.",
-    "p3": "Beeswax also never ‘goes bad’.  With time, pure beeswax will develop ‘bloom’ on the outside surfaces of the block/candle etc. which is a natural processed and valued by many beeswax enthusiasts.  Bloom will not affect burning or other properties, but if it does not tickle your fancy, wiping the areas with bloom with a soft bristled brush or soft cloth should return the beeswax to its pristine state."
+    "intro": {
+        "title": "Our Beeswax:",
+        "text":"When choosing honey there are many considerations before you make your choice!  Honey can be sold liquid, solid (crystalized), raw, processed, creamed, in comb, blended, and can range from light to dark in colour with a wide range of flavours.  As always there are pros and cons to every choice."
+    },
+    
+    "paragraphs": [
+        {
+            "title": "Uses",
+            "text": "Our beeswax is melted, strained and cleaned, and ready for use.  There is nearly an endless list of uses for beeswax with candles, furniture finishes/polishes, cosmetics, shoe polishes, and soap making being some of the more popular outlets.  Beeswax is a naturally antibacterial, antifungal material that when burned actually clean the air around them (emitting negative ions)."
+        },
+        {
+            "title": "Longevity",
+            "text": "Beeswax also never ‘goes bad’.  With time, pure beeswax will develop ‘bloom’ on the outside surfaces of the block/candle etc. which is a natural process and is valued by many beeswax enthusiasts.  Bloom will not affect burning or other properties, but if it does not tickle your fancy, wiping the areas with bloom with a soft bristled brush or soft cloth should return the beeswax to its pristine state."
+        },
+        {
+            "title": "Other",
+            "text": "Beeswax has a melting point of 65 C, and should always be melted in a water jacketed container as it is HIGHLY FLAMMABLE."
+        }
+    ]
 }
