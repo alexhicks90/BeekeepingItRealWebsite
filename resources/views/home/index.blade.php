@@ -39,62 +39,8 @@
 
 <div id="homeContainer" class="mx-5 pb-4 mb-2">
   <div class="row">
-    <div class="col-10 col-lg-8 mx-auto">
-      <div id="instaColumn" class="bg-warning mr-1 text-center">
-          <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
-            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo">
-          </a>
-          <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
-            <p class="font-weight-bold font-italic">beekeeping_it_real</p>
-          </a>
 
-          <div class="row matchedHeightRow">
-            @foreach($instagrams as $instagram)
-            <div class="col-12 col-xl-6 text-center">
-              <div class="card instaCard mb-3 mx-auto mx-xl-1">
-
-                  <div class="instaPic mx-auto">
-                    <a href="{{ $instagram->link }}" target="_blank">
-                      <img class="card-img-top darken img-thumbnail" src="{{ $instagram->images->standard_resolution->url }}" alt="Card image cap">
-
-                      @if ( property_exists($instagram, 'videos')) 
-                      <div class="vidLink">
-                          <i class="fa fa-video-camera"></i><span></span>
-                      </div>
-                      @endif
-
-                      <div class="links">
-                        <i class="fa fa-heart"></i><span>{{ $instagram->likes->count }}</span>
-                        <i class="fa fa-comment"></i><span>{{ $instagram->comments->count }}</span>
-                      </div>
-                    </a>
-                  </div>
-                
-                  <div class="card-body">
-                      <h5 class="card-title">{{ date('M j, Y', $instagram->created_time) }}</h5>
-                      
-                      @if ($instagram->caption != null)
-                          <p class="card-text">{{ $instagram->caption->text }}</p>
-                      @else
-                          <p class="card-text">No caption</p>
-                      @endif
-                  </div>
-              </div>
-            </div>
-            @endforeach
-          </div>
-
-          <h5 class="text-light text-center pb-1">Want more?
-            <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
-                Click here!
-            </a>
-          </h5>
-
-      </div> {{-- End instaColumn --}}
-    </div>
-
-
-    <div id="homeLinksContainer" class="col-12 col-lg-4 mx-auto">
+    <div id="homeLinksContainer" class="col-12 order-lg-12 col-lg-4 mx-auto mb-4 mb-lg-0">
       <div id="homeLinksJumbo" class="jumbotron row text-light">
 
           <div class="col-12">
@@ -116,6 +62,61 @@
       </div> {{-- END homeLinksJumbo --}}
     </div> {{-- END homeLinksContainer --}}
 
+
+    <div class="col-12 order-lg-1 col-lg-8 mx-auto">
+      <div id="instaColumn" class="bg-warning mr-1 text-center">
+          <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
+            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo">
+          </a>
+          <a class="text-black" href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
+            <p class="text-black font-weight-bold font-italic">beekeeping_it_real</p>
+          </a>
+
+          <div class="row matchedHeightRow">
+            @foreach($instagrams as $instagram)
+            <div class="col-12 col-md-6">
+              <div class="card instaCard mb-3 mx-auto mx-xl-1">
+
+                  <div class="instaPic mx-auto">
+                    <a href="{{ $instagram->link }}" target="_blank">
+                      <img class="card-img-top darken img-thumbnail" src="{{ $instagram->images->standard_resolution->url }}" alt="Card image cap">
+
+                      @if ( property_exists($instagram, 'videos')) 
+                      <div class="vidLink">
+                          <i class="fa fa-video-camera"></i><span></span>
+                      </div>
+                      @endif
+
+                      <div class="links">
+                        <i class="fa fa-heart"></i><span>{{ $instagram->likes->count }}</span>
+                        <i class="fa fa-comment"></i><span>{{ $instagram->comments->count }}</span>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="card-body">
+                      
+                      @if ($instagram->caption != null)
+                          <p class="card-text text-white">{{ $instagram->caption->text }}</p>
+                      @else
+                          <p class="card-text text-white">No caption</p>
+                      @endif
+
+                      <h5 class="instaDate text-right">{{ date('M d, Y', $instagram->created_time) }}</h5>
+                  </div>
+              </div>
+            </div>
+            @endforeach
+          </div>
+
+          <h5 class="text-black text-center pb-1">Want more?
+            <a class="text-black" href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
+                Click here!
+            </a>
+          </h5>
+
+      </div> {{-- End instaColumn --}}
+    </div>
   </div> {{-- End Row --}}
 </div> {{-- END HomeContainer --}}
 

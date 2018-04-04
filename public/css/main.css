@@ -112,6 +112,15 @@ nav {
 .stroke2 {
     -webkit-text-stroke: 2px orange;
 }
+
+.text-black {
+    color: black !important;
+    text-decoration-color: black !important; 
+}
+.text-black:hover {
+    color: black !important;
+    text-decoration-color: black !important; 
+}
 /* END CUSTOM CLASSES */
 
 
@@ -171,7 +180,7 @@ nav {
     max-height: 672px;
     
     
-    display: none;
+    display: block;
     border-radius: 1rem;
     border: 4px dotted rgb(223, 37, 182);
 
@@ -213,13 +222,23 @@ nav {
     text-decoration-color: white;
 }
 
+@media (max-width: 991px) {
+    
+}
 .instaCard {
     width: auto; 
     max-width: 540px;
     max-height: 850px;
     height: auto; 
     display: inline-block;
+    background: black;
 }
+
+.instaDate {
+    font-family: monospace;
+    color: orange;
+}
+
 
 .instaPic { 
     left: 50%;
@@ -227,6 +246,10 @@ nav {
     font-size: 0;
     max-width: 540px;
     max-height: 540px;
+  }
+  .instaPic a img {
+    background: black;
+    border: 0px;
   }
   .instaPic:before {
     content: "";
@@ -431,7 +454,7 @@ nav {
 }
 
 .infoPage h4 {
-    margin-top: 24px;
+    margin-top: 32px;
     margin-bottom: 8px;
     padding-bottom: 4px;
 }

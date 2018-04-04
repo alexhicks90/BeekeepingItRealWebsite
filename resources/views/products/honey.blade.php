@@ -11,34 +11,50 @@
             </h2>
 
             <div class="row">
-              <div class="col-4">
-                <p>{{ $json['intro']['text'] }}</p>
+              <div class="col-lg-5">
+                <p class="font-weight-bold text-warning" style="font-size: 1.2rem;">{{ $json['intro']['text'] }}</p>
+
+                <p>{{ $json['intro']['listIntro'] }}</p>
+                <ul>
+                  @foreach ($json['intro'] ['list'] as $item)
+                    <li>{{ $item }}</li>
+                  @endforeach
+                </ul>
+                <p>{{ $json['intro']['text2'] }}</p>
               </div>
-              <div class="col-8">
-                <img src="/images/honey.jpg" alt="honey" class="img-responsive" width="480px">
+              <div class="col-lg-7">
+                <div class="text-center pr-4">
+                  <img src="/images/honey.jpg" alt="honey" class="img-responsive mr-2" width="475px">
+                </div>
+                
               </div>
             </div>
 
-            <h4>
+            <h4 class="border-bottom">
               {{ $json['p1']['title'] }}
             </h4>
-            <p>
-              {{ $json['p1']['text'] }}
-            </p>
+            <ul>
+                @foreach ($json['p1'] ['text'] as $item)
+                  <li class="mt-2">{{ $item }}</li>
+                @endforeach
+            </ul>
+            
                 
-            <h4>
+            <h4 class="border-bottom">
               {{ $json['p2']['title'] }} 
             </h4>
-            <p>
-              {{ $json['p2']['text'] }}
-            </p>
+            <ul>
+                @foreach ($json['p2'] ['text'] as $item)
+                  <li class="mt-2">{{ $item }}</li>
+                @endforeach
+            </ul>
             
             <h4 class="border-bottom">
               {{ $json['facts']['title'] }}
             </h4>
             <ul>
               @foreach ($json['facts']['list'] as $fact)
-                <li>{{ $fact }}</li>
+                <li class="mt-2">{{ $fact }}</li>
               @endforeach
             </ul>
 

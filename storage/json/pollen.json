@@ -9,6 +9,8 @@
         "Stress reliever",
         "Promotes healing"
     ],
-
-    "paragraph": "There however are things to consider.  People with pollen allergies should be cautious with using bee pollen as they always run the chance of triggering an allergic reaction.  Bee pollen use is also not recommended for pregnant or breastfeeding women as well as for people taking blood thinning medication.  As with anything, if there is concerns with reactions with medications that a person is currently taking, consult with your doctor before starting with bee pollen use."
+    "p1": {
+        "title": "Use caution",
+        "text": "There however are things to consider.  People with pollen allergies should be cautious with using bee pollen as they always run the chance of triggering an allergic reaction.  Bee pollen use is also not recommended for pregnant or breastfeeding women as well as for people taking blood thinning medication.  As with anything, if there is concerns with reactions with medications that a person is currently taking, consult with your doctor before starting with bee pollen use."
+    }
 }
