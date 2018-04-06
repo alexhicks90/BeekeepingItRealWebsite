@@ -66,7 +66,7 @@
     <div class="col-12 order-lg-1 col-lg-8 mx-auto">
       <div id="instaColumn" class="bg-warning mr-1 text-center">
           <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
-            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo">
+            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo" style="max-height: 165px;">
           </a>
           <a class="text-black" href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
             <p class="text-black font-weight-bold font-italic">beekeeping_it_real</p>
