@@ -433,6 +433,12 @@ nav {
     cursor: default;
 }
 
+@media (min-width: 1200px) {
+    #productHexes {
+       width: 1140px;
+    }
+ }
+
 .product {
     background: rgb(37, 26, 6); 
     padding: 10px;
@@ -443,6 +449,8 @@ nav {
 
 .productContainer {
     display: flex;
+    min-width: 320px;
+    max-width: 380px;
     background: url('/images/honeycomb.jpg');
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);

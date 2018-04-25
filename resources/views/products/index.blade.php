@@ -2,7 +2,11 @@
 
 @section('assets')
     <link rel="stylesheet" href="/css/carousel.css">
-@section('content')
+@endsection
+
+@section('scripts')
+    {{-- <script type="text/javascript" src="/js/removeContainer.js"></script> --}}
+@endsection
 
 @section('content')
 <div class="text-white">
@@ -24,7 +28,7 @@
                   <div class="carousel-caption {{ $product['textColor'] }}">
                     <h1 class="{{ $product['stroke'] }}">{{ $product['name'] }}</h1>
                     <h4 class="{{ $product['stroke'] }}">{{ $product['shortDesc'] }}</h4>
-                    <p><a class="btn btn-lg {{ $product['btnClass'] }}" href="{{ $product['url'] }}" role="button">{{ $product['btnText'] }}</a></p>
+                    <p><a class="btn btn-lg {{ $product['btnClass'] }}" @if($product['btnText'] != "Coming Soon!") href="{{ $product['url'] }}" @endif role="button">{{ $product['btnText'] }}</a></p>
                   </div>
                 </div>
             </div>
@@ -41,19 +45,20 @@
       </a>
   </div>
 
-  <div class="container marketing">
+  <div id="productHexes" class="marketing container-fluid">
 
     {{--<h1 class="text-center display-4 stroke2" style="text-decoration: underline;">Products</h1>--}}
+
       <!-- Three columns of text below the carousel -->
       <div class="row matchedHeightRow">
         @foreach ($json['products'] as $product)
           <div class="mb-5 col-lg-4 col-md-6">
-            <div class="productContainer p-1">
+            <div class="productContainer p-1 mx-auto">
               <div class="product text-center">
                 <img class="rounded-circle" src="/images/{{ $product['img'] }}" alt="{{ $product['alt'] }}" width="140" height="140">
                 <h2>{{ $product['name'] }}</h2>
                 <p class="px-4 px-md-3">{{ $product['shortDesc'] }}</p>
-                <p><a class="btn {{ $product['btnClass'] }}" href="{{ $product['url'] }}" role="button">@if($product['btnText'] == "Learn More") Product Info &raquo;@else Coming Soon! @endif</a></p>
+                <p><a class="btn {{ $product['btnClass'] }}" @if($product['btnText'] != "Coming Soon!") href="{{ $product['url'] }}" @endif role="button">{{ $product['btnText'] }}</a></p>
               </div>
             </div>
           </div><!-- /.col-lg-4 -->
@@ -63,6 +68,9 @@
         @endforeach
       </div><!-- /.row -->
   </div>
+  <h5 class="text-center font-italic mb-4">
+      *For more information on pricing, availability, and any other questions you may have feel free to <a href="/contact" style="color: #ffc107;">Contact Dave</a> via Email
+  </h5>
 {{--
   @foreach ($json['products'] as $product)
     <hr class="featurette-divider">
