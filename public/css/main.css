@@ -180,7 +180,7 @@ nav {
     max-height: 672px;
     
     
-    display: block;
+    display: none;
     border-radius: 1rem;
     border: 4px dotted rgb(223, 37, 182);
 
@@ -207,7 +207,7 @@ nav {
 									   color-stop(0.86, rgb(223, 37, 182)));
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     #instaColumn {
         display: block;
     }
