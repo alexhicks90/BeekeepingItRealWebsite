@@ -16,8 +16,8 @@
             <h4>{{ $json['p1']['title'] }}</h4>
             <p class="mt-3">{{ $json['p1']['text'] }}</p>
         </div>
-        <div class="col-xl-6 mt-5 text-center">
-            <img src="/images/pollen.jpg" alt="pollen" style="width: 100%; max-width: 700px; height: auto;">
+        <div class="col-xl-6 d-flex align-items-center text-center">
+            <img src="/images/beePollen.jpg" class="mx-auto my-5" alt="pollen" style="width: 100%; max-width: 700px; height: auto;">
         </div>
     </div>
 </div>

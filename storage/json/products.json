@@ -25,7 +25,8 @@
             "btnClass": "btn-warning text-dark",
             "carouselImage": "nucs.jpg",
             "alt": "Nucs Slide",
-            "img": "nucs.jpg"
+            "img": "nucs.jpg",
+            "attribution": "Photo credit: <a href='https://visualhunt.com/author/0c07ac'>Jason Riedy</a> on <a href='https://visualhunt.com/re/3b394d'>VisualHunt</a> / <a href='http://creativecommons.org/licenses/by/2.0/'> CC BY</a>"
         },
         {
             "name": "Beeswax",
@@ -36,9 +37,9 @@
             "textColor": "",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "beeswax.jpg",
+            "carouselImage": "beeswax01.jpg",
             "alt": "Beeswax Slide",
-            "img": "beeswax.jpg"
+            "img": "beeswax01.jpg"
         },
         {
             "name": "Pollen",
@@ -49,9 +50,9 @@
             "textColor": "text-dark",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "pollen.jpg",
+            "carouselImage": "beePollen.jpg",
             "alt": "Pollen Slide",
-            "img": "pollen.jpg"
+            "img": "beePollen.jpg"
         },
         {
             "name": "Propolis",
@@ -75,9 +76,9 @@
             "textColor": "",
             "btnText": "Contact Us &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "beeswax.jpg",
+            "carouselImage": "beeswax02.jpg",
             "alt": "Beeswax Slide",
-            "img": "beeswax.jpg"
+            "img": "beeswax02.jpg"
         }
     ]
 }

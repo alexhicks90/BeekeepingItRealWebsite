@@ -437,7 +437,18 @@ nav {
     #productHexes {
        width: 1140px;
     }
- }
+}
+
+@media (max-width: 620px) {
+    #pricingBlurb {
+       font-size: 0.98rem;
+    }
+}
+@media (max-width: 500px) {
+    #pricingBlurb {
+       font-size: 0.91rem;
+    }
+}
 
 .product {
     background: rgb(37, 26, 6); 
