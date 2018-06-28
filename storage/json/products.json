@@ -23,10 +23,9 @@
             "textColor": "text-warning",
             "btnText": "Contact Us &raquo;",
             "btnClass": "btn-warning text-dark",
-            "carouselImage": "nucs.jpg",
+            "carouselImage": "nucs2_BR.jpg",
             "alt": "Nucs Slide",
-            "img": "nucs.jpg",
-            "attribution": "Photo credit: <a href='https://visualhunt.com/author/0c07ac'>Jason Riedy</a> on <a href='https://visualhunt.com/re/3b394d'>VisualHunt</a> / <a href='http://creativecommons.org/licenses/by/2.0/'> CC BY</a>"
+            "img": "nuc_BR.jpg"
         },
         {
             "name": "Beeswax",
@@ -37,9 +36,9 @@
             "textColor": "",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "beeswax01.jpg",
+            "carouselImage": "beeswax2_BR.jpg",
             "alt": "Beeswax Slide",
-            "img": "beeswax01.jpg"
+            "img": "beeswax3_BR.jpg"
         },
         {
             "name": "Pollen",
@@ -50,9 +49,9 @@
             "textColor": "text-dark",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "beePollen.jpg",
+            "carouselImage": "pollen_BR.jpg",
             "alt": "Pollen Slide",
-            "img": "beePollen.jpg"
+            "img": "pollen3_BR.jpg"
         },
         {
             "name": "Propolis",
@@ -69,7 +68,7 @@
         },
         {
             "name": "Beeswax Products",
-            "shortDesc": "We offer a variety of beeswax based products from lip balms, to show polishes and even furniture!",
+            "shortDesc": "We offer a variety of beeswax based products from lip balms, to shoe polishes and even furniture!",
             "longDesc": "",
             "stroke" : "",
             "url": "/contact",

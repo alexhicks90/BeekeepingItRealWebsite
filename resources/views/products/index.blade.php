@@ -12,37 +12,39 @@
 <div class="text-white">
 
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-          @foreach ($json['products'] as $product)
-            <li data-target="#myCarousel" data-slide-to="{{ $loop->index }}"></li>
-          @endforeach
-      </ol>
-
-      <div class="carousel-inner">
-
-          @foreach ($json['products'] as $product)
-            <div class="carousel-item @if($loop->index == 0) active @endif">
-                <img class="" src="/images/{{ $product['carouselImage'] }}" alt="{{ $product['alt'] }}">
-                <div class="container">
-                  <div class="carousel-caption {{ $product['textColor'] }}">
-                    <h1 class="{{ $product['stroke'] }}">{{ $product['name'] }}</h1>
-                    <h4 class="{{ $product['stroke'] }}">{{ $product['shortDesc'] }}</h4>
-                    <p><a class="btn btn-lg {{ $product['btnClass'] }}" @if($product['btnText'] != "Coming Soon!") href="{{ $product['url'] }}" @endif role="button">{{ $product['btnText'] }}</a></p>
+  <div class="container">
+    <div id="myCarousel" class="carousel slide mt-2" data-ride="carousel">
+        <ol class="carousel-indicators">
+            @foreach ($json['products'] as $product)
+              <li data-target="#myCarousel" data-slide-to="{{ $loop->index }}"></li>
+            @endforeach
+        </ol>
+  
+        <div class="carousel-inner">
+  
+            @foreach ($json['products'] as $product)
+              <div class="carousel-item @if($loop->index == 0) active @endif">
+                  <img class="" src="/images/{{ $product['carouselImage'] }}" alt="{{ $product['alt'] }}">
+                  <div class="container">
+                    <div class="carousel-caption {{ $product['textColor'] }}">
+                      <h1 class="{{ $product['stroke'] }}">{{ $product['name'] }}</h1>
+                      <h4 class="{{ $product['stroke'] }}">{{ $product['shortDesc'] }}</h4>
+                      <p><a class="btn btn-lg {{ $product['btnClass'] }}" @if($product['btnText'] != "Coming Soon!") href="{{ $product['url'] }}" @endif role="button">{{ $product['btnText'] }}</a></p>
+                    </div>
                   </div>
-                </div>
-            </div>
-          @endforeach
-      </div> 
-    
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+              </div>
+            @endforeach
+        </div> 
+      
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
   </div>
 
   <div id="productHexes" class="marketing container-fluid">

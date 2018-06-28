@@ -45,7 +45,7 @@
                         <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
                     <p class="mt-4">Or click the link below to use your email client</p>
-                    <a class="text-warning" href="mailto:info@beekeepingitreal.ca?Subject=beekeepingitreal.ca%20Website%20Question" target="_top">Send Email</a>
+                    <a class="text-warning" href="mailto:dave@beekeepingitreal.ca?Subject=beekeepingitreal.ca%20Website%20Question" target="_top">Send Email</a>
                 </div>
             </div>
         </div>

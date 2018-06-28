@@ -10,9 +10,6 @@
     <p>
       Name: {{ $data['name'] }}
     </p>
-    <p>
-      Email: {{ $data['email'] }}
-    </p>
     <h3>Message:</h3>
     <p>
     {{ $data['message'] }}
