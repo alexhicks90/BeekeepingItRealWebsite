@@ -18,7 +18,7 @@
       <div class="row">
         <h1 id="homeTitle" class="col-11 display-2 text-white stroke2">Beekeeping It Real</h1>
         <div class="col-md-6 offset-lg-1 d-flex align-items-center h100">
-          <img id="introPic" class="img img-fluid mt-2 pb-3" src="images/DSC_0049.JPG" alt="David Stotesbury">
+          <img id="introPic" class="img img-fluid mt-2 pb-3" src="images/{{ $json['introPic'] }}" alt="David Stotesbury">
         </div>
         <div class="col-md-6 col-lg-4 d-flex align-items-center h100">
           <p id="introBlurb" class="lead">Since 2011, Beekeeping It Real has been providing Ayr, Kitchener/<wbr>Waterloo, Paris, Elmira 
