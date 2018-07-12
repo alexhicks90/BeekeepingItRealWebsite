@@ -58,13 +58,13 @@
             "shortDesc": "Information on our Propolis will be available soon!",
             "longDesc": "",
             "stroke" : "stroke",
-            "url": "",
+            "url": "/contact",
             "textColor": "text-dark",
-            "btnText": "Coming Soon!",
-            "btnClass": "comingSoonBtn text-dark",
-            "carouselImage": "propolis.jpg",
+            "btnText": "Contact Us &raquo;",
+            "btnClass": "btn-warning",
+            "carouselImage": "comingSoon.png",
             "alt": "Propolis Slide",
-            "img": "propolis.jpg"
+            "img": "comingSoonMin.png"
         },
         {
             "name": "Beeswax Products",
@@ -75,9 +75,9 @@
             "textColor": "",
             "btnText": "Contact Us &raquo;",
             "btnClass": "btn-warning",
-            "carouselImage": "beeswax02.jpg",
+            "carouselImage": "comingSoon.png",
             "alt": "Beeswax Slide",
-            "img": "beeswax02.jpg"
+            "img": "comingSoonMin.png"
         }
     ]
 }
