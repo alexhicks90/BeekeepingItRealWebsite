@@ -11,9 +11,17 @@
 @section('content')
 <div class="text-white">
 
+  <div class="clearfix" style="height: 60vh; min-height: 330px; background: 
+          url(images/daveWorking.jpg) no-repeat right 35%;
+          background-size: cover;">
 
-  <div class="container">
-    <div id="myCarousel" class="carousel slide mt-2" data-ride="carousel">
+      <div style="position: relative; top: 50%; left: 15%;">
+            <h1>Products</h1>
+      </div>
+  </div>
+  <div class="">
+    
+    <div id="myCarousel" class="carousel slide border-top border-dark" data-ride="carousel">
         <ol class="carousel-indicators">
             @foreach ($json['products'] as $product)
               <li data-target="#myCarousel" data-slide-to="{{ $loop->index }}"></li>
@@ -24,7 +32,12 @@
   
             @foreach ($json['products'] as $product)
               <div class="carousel-item @if($loop->index == 0) active @endif">
-                  <img class="" src="/images/{{ $product['carouselImage'] }}" alt="{{ $product['alt'] }}">
+                  <div class="clearfix" style="height: 100%; background: 
+                          url(images/{{ $product['carouselImage'] }}) no-repeat center center;
+                          background-size: cover;">               
+                      
+                  </div>
+                  <!-- <img class="" src="/images/{{ $product['carouselImage'] }}" alt="{{ $product['alt'] }}"> -->
                   <div class="container">
                     <div class="carousel-caption {{ $product['textColor'] }}">
                       <h1 class="{{ $product['stroke'] }}">{{ $product['name'] }}</h1>

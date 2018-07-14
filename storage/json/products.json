@@ -1,13 +1,12 @@
 {
     "products": [
-
         {
             "name": "Raw Honey",
             "shortDesc": "Our raw honey is sold in 500g, 1kg, and 3kg quantities.  Larger quantities are also available upon request.",
             "longDesc": "",
-            "stroke" : "",
+            "stroke" : "strokeBlack",
             "url": "/products/raw-honey",
-            "textColor": "",
+            "textColor": "text-warning",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
             "carouselImage": "honey.jpg",
@@ -31,7 +30,7 @@
             "name": "Beeswax",
             "shortDesc": "Our beeswax is melted, strained, cleaned, and ready for use. Beeswax is sold by the pound.",
             "longDesc": "",
-            "stroke" : "",
+            "stroke" : "strokeBlack",
             "url": "/products/beeswax",
             "textColor": "",
             "btnText": "Product Info &raquo;",
@@ -44,9 +43,9 @@
             "name": "Pollen",
             "shortDesc": "Bee pollen harvest from our hives is fresh/frozen and sold by the pound.",
             "longDesc": "",
-            "stroke" : "strokeWhite",
+            "stroke" : "strokeBlack",
             "url": "/products/pollen",
-            "textColor": "text-dark",
+            "textColor": "text-white",
             "btnText": "Product Info &raquo;",
             "btnClass": "btn-warning",
             "carouselImage": "pollen_BR.jpg",
@@ -57,11 +56,11 @@
             "name": "Propolis",
             "shortDesc": "Information on our Propolis will be available soon!",
             "longDesc": "",
-            "stroke" : "stroke",
+            "stroke" : "",
             "url": "/contact",
-            "textColor": "text-dark",
+            "textColor": "blackText",
             "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-warning",
+            "btnClass": "btn-dark",
             "carouselImage": "comingSoon.png",
             "alt": "Propolis Slide",
             "img": "comingSoonMin.png"
@@ -72,11 +71,11 @@
             "longDesc": "",
             "stroke" : "",
             "url": "/contact",
-            "textColor": "",
+            "textColor": "blackText",
             "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-warning",
+            "btnClass": "btn-dark",
             "carouselImage": "comingSoon.png",
-            "alt": "Beeswax Slide",
+            "alt": "Beeswax Products Slide",
             "img": "comingSoonMin.png"
         }
     ]

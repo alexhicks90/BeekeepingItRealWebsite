@@ -14,7 +14,7 @@
             @endforeach
         </div>
         <div class="col-12 col-xl-6 d-flex align-items-center">
-            <img src="/images/beeswax02.jpg" alt="beeswax" class="img-responsive mx-auto my-5" style="width: 100%; max-width: 600px; height: auto;">
+            <img src="/images/beeswax2_BR.jpg" alt="beeswax" class="img-responsive mx-auto my-5" style="width: 100%; max-width: 650px; height: auto;">
         </div>
     </div>
 </div>

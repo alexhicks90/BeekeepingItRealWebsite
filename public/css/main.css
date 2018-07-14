@@ -71,6 +71,11 @@ nav {
 
 
 /* CUSTOM CLASSES */
+
+.blackText {
+    color: black;
+}
+
 .darken {
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
@@ -473,12 +478,14 @@ nav {
     color: white;  
 }
 
-.infoPage h2, h4 {
+.infoPage h2 {
     color: #ffc107;
     font-style: italic;
 }
 
 .infoPage h4 {
+    font-style: italic;
+    color: #ffc107;
     margin-top: 32px;
     margin-bottom: 8px;
     padding-bottom: 4px;
