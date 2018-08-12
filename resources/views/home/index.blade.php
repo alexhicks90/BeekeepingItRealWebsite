@@ -66,7 +66,7 @@
     <div class="col-12 order-lg-1 col-lg-8 mx-auto">
       <div id="instaColumn" class="bg-warning mr-1 text-center">
           <a href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
-            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo" style="max-height: 165px;">
+            <img class="img-fluid mt-2" src="images/instagram.png" alt="Instagram Logo" style="max-height: 100px;">
           </a>
           <a class="text-black" href="https://www.instagram.com/beekeeping_it_real/" target="_blank">
             <p class="text-black font-weight-bold font-italic">beekeeping_it_real</p>
@@ -75,7 +75,7 @@
           <div class="row matchedHeightRow">
             @foreach($instagrams as $instagram)
             <div class="col-12 col-md-6">
-              <div class="card instaCard mb-3 mx-auto mx-xl-1">
+              <div class="card instaCard mb-3 mx-auto">
 
                   <div class="instaPic mx-auto">
                     <a href="{{ $instagram->link }}" target="_blank">
