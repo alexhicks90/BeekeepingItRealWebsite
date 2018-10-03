@@ -11,6 +11,10 @@ class ContactController extends Controller
         return view('contact/index');
     }
 
+    public function temp() {
+        return view('contact/temp');
+    }
+
     public function store() {
 
         $this->validate(request(), [

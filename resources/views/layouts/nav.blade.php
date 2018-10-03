@@ -38,7 +38,7 @@
                         <a class="dropdown-item" href="/products/pollen">Pollen</a>
                     </div>
                 </li>
-                <a class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contact Us</a>
+                <a class="nav-item nav-link {{ Request::is('temp') ? 'active' : '' }}" href="/temp">Contact Us</a>
             </div><!-- navbar-nav -->
         </div> <!-- navbar collapse -->
     </div>

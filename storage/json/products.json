@@ -21,7 +21,7 @@
             "url": "/contact",
             "textColor": "text-warning",
             "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-warning text-dark",
+            "btnClass": "btn-dark",
             "carouselImage": "nucs2_BR.jpg",
             "alt": "Nucs Slide",
             "img": "nuc_BR.jpg"

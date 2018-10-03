@@ -23,6 +23,7 @@ Route::get('/products/pollen', 'ProductController@pollen');
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
 
+Route::get('/contactus', 'ContactController@temp');
 
 Route::get('/carousel', 'HomeController@carousel');
 Route::get('instagram', 'InstagramController@instagramFeed');
