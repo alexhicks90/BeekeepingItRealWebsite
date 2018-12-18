@@ -33,7 +33,7 @@ class ContactController extends Controller
     
         \Mail::to('ahicks090@gmail.com')->send(new Contactmail($data));
 
-        return redirect('/contact')->with('status', 'Thank you for contacting us! We will do our best to get back to you in a timely manner :)');;
+        return redirect('/contact')->with('status', 'Thank you for contacting us! We will do our best to get back to you in a timely manner :)');
 
     }
 }

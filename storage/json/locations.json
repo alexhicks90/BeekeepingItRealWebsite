@@ -24,14 +24,14 @@
       },
       {
         "id": 2,
-        "name": "Forsythe Family Farms",
-        "address": "1025 Cragg Rd, Uxbridge, ON L9P 1R3",
-        "website":"http://forsythefamilyfarms.com/",
-        "image": "/images/forsytheFarms.jpg",
-        "lat": 44.1495963,
-        "lng": -79.02730170000001,
-        "zoom": 11,
-        "directions": "https://www.google.ca/maps/dir//Forsythe+Family+Farms+2009+Inc,+1025+Cragg+Rd,+Uxbridge,+ON+L9P+1R3/@43.7395704,-79.7027463,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89d52a6887507375:0x4165ff74c6a3cabb!2m2!1d-79.0273017!2d44.1495963!3e0"
+        "name": "Habitual Chocolate",
+        "address": "389 Dundas Street, Woodstock, ON N4S 1B6",
+        "website":"https://www.facebook.com/habitualchocolate/",
+        "image": "/images/habitualChocolate.png",
+        "lat": 43.129650,
+        "lng": -80.760660,
+        "zoom": 14,
+        "directions": "https://www.google.ca/maps/dir//Habitual+Chocolate,+389+Dundas+St,+Woodstock,+ON+N4S+1B6/@43.133035,-80.7712263,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882c1f0b5378cf8d:0x92a6a482b208975a!2m2!1d-80.76061!2d43.1296741!3e0"
       },
       {
         "id": 3,

@@ -18,10 +18,10 @@
             "shortDesc": "Nuc availability is seasonally dependent.  Our nucs contain 1 year old locally mated Buckfast queens.",
             "longDesc": "",
             "stroke" : "strokeBlack",
-            "url": "/contact",
+            "url": "/contactus",
             "textColor": "text-warning",
             "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-dark",
+            "btnClass": "btn-secondary",
             "carouselImage": "nucs2_BR.jpg",
             "alt": "Nucs Slide",
             "img": "nuc_BR.jpg"
@@ -53,30 +53,17 @@
             "img": "pollen3_BR.jpg"
         },
         {
-            "name": "Propolis",
-            "shortDesc": "Information on our Propolis will be available soon!",
-            "longDesc": "",
-            "stroke" : "",
-            "url": "/contact",
-            "textColor": "blackText",
+            "name": "Urban Beekeeping",
+            "shortDesc": "Beekeeping It Real is happy to be able to offer rental hives to suit your needs.",
+            "longDesc": "This gives you the chance to produce honey at home/work in a responsible and intriguing way.  With multiple packages available there is one to suit everyone's needs. Please contact Dave at dave@beekeepingitreal.ca to discuss your bee needs and wants in order to get your bee hive up and running.",
+            "stroke" : "strokeBlack",
+            "url": "/contactus",
+            "textColor": "text-warning",
             "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-dark",
-            "carouselImage": "comingSoon.png",
-            "alt": "Propolis Slide",
-            "img": "comingSoonMin.png"
-        },
-        {
-            "name": "Beeswax Products",
-            "shortDesc": "We offer a variety of beeswax based products from lip balms, to shoe polishes and even furniture!",
-            "longDesc": "",
-            "stroke" : "",
-            "url": "/contact",
-            "textColor": "blackText",
-            "btnText": "Contact Us &raquo;",
-            "btnClass": "btn-dark",
-            "carouselImage": "comingSoon.png",
-            "alt": "Beeswax Products Slide",
-            "img": "comingSoonMin.png"
+            "btnClass": "btn-secondary",
+            "carouselImage": "urbanHive.jpg",
+            "alt": "Urban Beekeeping Slide",
+            "img": "urbanHive.jpg"
         }
     ]
 }

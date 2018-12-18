@@ -16,7 +16,7 @@
           background-size: cover;">
 
       <div style="position: relative; top: 50%; left: 15%;">
-            <h1>Products</h1>
+            <h1>Products & Services</h1>
       </div>
   </div>
   <div class="">
@@ -84,7 +84,7 @@
       </div><!-- /.row -->
   </div>
   <h5 id="pricingBlurb" class="text-center font-italic mb-4 mx-1">
-      *For more information on pricing, availability, and any other questions you may have feel free to <a href="/contact" style="color: #ffc107;">Contact Dave</a> via Email
+      *For more information on pricing, availability, and any other questions you may have feel free to <a href="/contactus" style="color: #ffc107;">Contact Dave</a> via Email
   </h5>
 {{--
   @foreach ($json['products'] as $product)
